@@ -487,22 +487,27 @@
   </div>
 </section>
 <script>
-document.getElementById('contactForm').addEventListener('submit', function(e) {
-  e.preventDefault();
-  var nome = document.getElementById('inputFirstName').value;
-  var sobrenome = document.getElementById('inputLastName').value;
-  var email = document.getElementById('inputEmail').value;
-  var mensagem = document.getElementById('message').value;
-  var subject = encodeURIComponent('Novo contato pelo site');
-  var body = encodeURIComponent(
-    'Nome: ' + nome + '\n' +
-    'Sobrenome: ' + sobrenome + '\n' +
-    'E-mail: ' + email + '\n' +
-    'Mensagem:\n' + mensagem
-  );
-  var mailtoLink = 'mailto:marcelinojonathas@gmail.com?subject=' + subject + '&body=' + body;
-  window.location.href = mailtoLink;
-  document.getElementById('formStatus').innerHTML = '<span style="color:green;">Abrindo seu programa de e-mail...</span>';
+document.addEventListener('DOMContentLoaded', function() {
+  var form = document.getElementById('contactForm');
+  if (form) {
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      var nome = document.getElementById('inputFirstName').value;
+      var sobrenome = document.getElementById('inputLastName').value;
+      var email = document.getElementById('inputEmail').value;
+      var mensagem = document.getElementById('message').value;
+      var subject = encodeURIComponent('Novo contato pelo site');
+      var body = encodeURIComponent(
+        'Nome: ' + nome + '\n' +
+        'Sobrenome: ' + sobrenome + '\n' +
+        'E-mail: ' + email + '\n' +
+        'Mensagem:\n' + mensagem
+      );
+      var mailtoLink = 'mailto:marcelinojonathas@gmail.com?subject=' + subject + '&body=' + body;
+      window.open(mailtoLink, '_blank');
+      document.getElementById('formStatus').innerHTML = '<span style="color:green;">Abrindo seu programa de e-mail...</span>';
+    });
+  }
 });
 </script>
 
