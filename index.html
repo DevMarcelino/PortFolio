@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DevMarcelino</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- ////////////////////////////////////////////////////////////////////////////////////////
+                               INÍCIO SEÇÃO 1 - NAVBAR  
+/////////////////////////////////////////////////////////////////////////////////////////////-->
+<nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="">
+        <img src="images/logo.png" alt="imagem do logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Serviços</a></li>
+          <li class="nav-item"><a class="nav-link" href="#aboutme">Quem Sou Eu?</a></li>
+          <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfólio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contato</a>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////
+                            INÍCIO SEÇÃO 2 - INTRODUÇÃO  
+/////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+<section id="home" class="intro-section">
+  <div class="container">
+    <div class="row align-items-center text-white">
+      <!-- INÍCIO DO CONTEÚDO DA INTRODUÇÃO  -->
+      <div class="col-md-6 intros text-start">
+        <h1 class="display-2">
+          <span class="display-2--intro">Olá! Eu sou Jonathas</span>
+          <span class="display-2--description lh-base">
+            Este site é meu portfólio profissional como desenvolvedor. Aqui você pode conhecer meus projetos, habilidades e entrar em contato para possíveis parcerias ou contratações.
+          </span>
+        </h1>
+        <button type="button" class="rounded-pill btn-rounded" onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });">
+          Entrar em Contato
+          <span><i class="fas fa-arrow-right"></i></span>
+        </button>
+      </div>
+      <!-- INÍCIO DO CONTEÚDO DO VÍDEO -->
+      <div class="col-md-6 intros text-end">
+        <div class="video-box">
+          <img src="images/arts/intro-section-illustration.png" alt="ilustração do vídeo" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,160L48,176C96,192,192,224,288,208C384,192,480,128,576,133.3C672,139,768,213,864,202.7C960,192,1056,96,1152,74.7C1248,53,1344,107,1392,133.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+</section>
+
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////
+                         INÍCIO SEÇÃO 4 - SERVIÇOS  
+///////////////////////////////////////////////////////////////////////////////////////////////////-->
+<section id="services" class="services">
+  <div class="container">
+    <div class="row text-center">
+      <h1 class="display-3 fw-bold">Meus Serviços</h1>
+      <div class="heading-line mb-1"></div>
+    </div>
+  <!-- INÍCIO DO CONTEÚDO DE DESCRIÇÃO  -->
+    <div class="row pt-2 pb-2 mt-0 mb-3">
+      <div class="col-md-6 border-right">
+        <div class="bg-white p-3">
+          <h2 class="fw-bold text-capitalize text-center">
+            Nossos serviços vão do design inicial à implantação em qualquer lugar, a qualquer hora
+          </h2>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="bg-white p-4 text-start">
+          <p class="fw-light">
+            Auxilio desde o início do projeto, ouvindo as necessidades do cliente e transformando ideias em soluções digitais eficientes. Participo de todas as etapas, do planejamento à entrega, focando em qualidade, desempenho e segurança. Meu objetivo é entregar projetos personalizados, funcionais e prontos para crescer com seu negócio.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- INÍCIO DO CONTEÚDO DOS SERVIÇOS  -->
+  <div class="container">
+    <!-- INÍCIO DO CONTEÚDO DE MARKETING  -->
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+        <div class="services__content">
+          <div class="icon d-block fas fa-paper-plane"></div>
+          <h3 class="display-3--title mt-1">Marketing</h3>
+          <p class="lh-lg">
+            Meu trabalho de marketing é focado em criar estratégias personalizadas para divulgar seu projeto ou site de forma eficiente. Utilizo ferramentas digitais, redes sociais, campanhas segmentadas e produção de conteúdo relevante para aumentar sua visibilidade online. Analiso o público-alvo e o mercado para definir as melhores ações, promovendo seu negócio em diferentes canais e acompanhando os resultados para garantir o crescimento e o engajamento da sua marca.
+          </p>
+
+
+          </button>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
+        <div class="services__pic">
+          <img src="images/services/service-1.png" alt="ilustração de marketing" class="img-fluid">
+        </div>
+      </div>
+    </div>
+    <!-- INÍCIO DO CONTEÚDO DE DESENVOLVIMENTO WEB  -->
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
+        <div class="services__pic">
+          <img src="images/services/service-2.png" alt="ilustração de desenvolvimento web" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+        <div class="services__content">
+          <div class="icon d-block fas fa-code"></div>
+          <h3 class="display-3--title mt-1">Desenvolvimento Web</h3>
+          <p class="lh-lg">
+            Desenvolvo sites e aplicativos de forma totalmente original, criando soluções únicas e personalizadas para cada cliente. Utilizo as tecnologias mais atuais do mercado digital, garantindo desempenho, segurança e design moderno. Meu foco é entregar projetos responsivos, rápidos e preparados para crescer junto com o seu negócio, sempre acompanhando as tendências e inovações do desenvolvimento web.
+          </p>
+
+
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- INÍCIO DO CONTEÚDO DE HOSPEDAGEM NA NUVEM  -->
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+        <div class="services__content">
+          <div class="icon d-block fas fa-cloud-upload-alt"></div>
+          <h3 class="display-3--title mt-1">Hospedagem na Nuvem</h3>
+          <p class="lh-lg">
+            Além de desenvolver seu site, também oferecemos o serviço de hospedagem na Nuvem, caso seja interessante para o cliente. Assim, você garante que seu projeto estará disponível online com segurança, desempenho e suporte especializado.
+          </p>
+
+          </button>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
+        <div class="services__pic">
+          <img src="images/services/service-3.png" alt="ilustração de hospedagem na nuvem" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////
+     INÍCIO SEÇÃO 5 - QUEM SOU EU  
+/////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<section id="aboutme" class="aboutme position-relative" style="overflow: hidden;">
+  <!-- SVG Top Wave -->
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+  <div class="container position-relative" style="z-index:2;">
+  <div class="row text-center text-white">
+  <h1 class="display-3 fw-bold animate__animated animate__fadeInDown">Quem sou Eu?</h1>
+  <hr style="width: 100px; height: 3px;" class="mx-auto animate__animated animate__fadeInLeft">
+  <p class="lead pt-1 mb-2 animate__animated animate__fadeInUp">Conheça um pouco sobre mim</p>
+  </div>
+  <div class="row align-items-center mt-2 mb-5">
+  <div class="col-lg-4 text-center mb-4 mb-lg-0 d-flex align-items-center justify-content-center">
+  <div class="profile-img-wrapper position-relative">
+    <img src="images/profile.jpeg" alt="Foto de perfil de Jonathas" class="rounded-circle img-fluid shadow-lg animate__animated animate__zoomIn" style="border: 8px solid #fff; width: 450px; height: 450px; object-fit: cover;">
+    <span class="profile-glow"></span>
+  </div>
+  </div>
+  <div class="col-lg-8 d-flex align-items-center justify-content-start">
+  <div class="text-white text-start animate__animated animate__fadeInRight" style="max-width: 600px; margin-left: 70px;">
+    <h1 class="fw-bold mb-2" style="font-size: 30px; letter-spacing: 1px; text-shadow: 1px 2px 8px rgba(0,0,0,0.2);">Jonathas Marcelino</h1>
+    <p class="lh-lg" style="font-size: 20px; background: rgba(255,255,255,0.05); border-radius: 10px; padding: 10px 18px;">
+    Sou desenvolvedor web apaixonado por tecnologia e inovação. Trabalho criando soluções digitais personalizadas, desde o design até a implantação, sempre focando em qualidade, desempenho e segurança. 
+    </p>
+    <p class="lh-lg" style="font-size: 20px; background: rgba(255,255,255,0.05); border-radius: 10px; padding: 10px 18px;">
+    Sou formado em Desenvolvimento de Sistemas e atualmente estou cursando Engenharia de Software. Tenho experiência em diversas tecnologias, incluindo HTML, CSS, JavaScript, PHP e frameworks modernos. Estou sempre atualizado com as últimas tendências do mercado para oferecer o melhor aos meus clientes.
+    </p>
+  </div>
+  </div>
+  </div>
+  </div>
+  <!-- SVG Bottom Wave -->
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,160L48,176C96,192,192,224,288,208C384,192,480,128,576,133.3C672,139,768,213,864,202.7C960,192,1056,96,1152,74.7C1248,53,1344,107,1392,133.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+  <!-- Efeitos extras CSS -->
+  <style>
+  @import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+  .profile-img-wrapper {
+  position: relative;
+  display: inline-block;
+  }
+  .profile-glow {
+  position: absolute;
+  top: 50%; left: 50%;
+  width: 340px; height: 340px;
+  background: radial-gradient(circle, rgba(0,123,255,0.18) 0%, rgba(0,123,255,0) 70%);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  animation: glowPulse 2.5s infinite alternate;
+  pointer-events: none;
+  }
+  @keyframes glowPulse {
+  0% { opacity: 0.7; }
+  100% { opacity: 0.3; }
+  }
+  @media (max-width: 991px) {
+  .aboutme .text-start { margin-left: 0 !important; }
+  .profile-glow { width: 200px; height: 200px; }
+  .profile-img-wrapper img { width: 180px !important; height: 180px !important; }
+  }
+  </style>
+</section>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////
+             INÍCIO SEÇÃO 6 - FAQ 
+//////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<section id="faq" class="faq">
+  <div class="container">
+  <div class="row text-center">
+    <h1 class="display-3 fw-bold text-uppercase">FAQ</h1>
+    <div class="heading-line"></div>
+    <p class="lead">Perguntas Frequentes</p>
+  </div>
+  <!-- ACCORDION CONTENT  -->
+  <div class="row mt-5">
+    <div class="col-md-12">
+    <div class="accordion" id="accordionExample">
+      <!-- ACCORDION ITEM 1 -->
+      <div class="accordion-item shadow mb-3">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Quais tecnologias você utiliza no desenvolvimento dos projetos?
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+        Trabalho com HTML, CSS, JavaScript, PHP e frameworks modernos para garantir sites responsivos, seguros e de alta performance. Sempre busco as melhores soluções para cada necessidade.
+        </div>
+      </div>
+      </div>
+      <!-- ACCORDION ITEM 2 -->
+      <div class="accordion-item shadow mb-3">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        O site será responsivo e adaptado para celulares?
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+        Sim! Todos os projetos são desenvolvidos para funcionar perfeitamente em computadores, tablets e smartphones, garantindo a melhor experiência para todos os usuários.
+        </div>
+      </div>
+      </div>
+      <!-- ACCORDION ITEM 3 -->
+      <div class="accordion-item shadow mb-3">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Você oferece suporte e manutenção após a entrega do site?
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+        Sim, ofereço suporte técnico e planos de manutenção para garantir que seu site continue atualizado, seguro e funcionando corretamente após a entrega.
+        </div>
+      </div>
+      </div>
+      <!-- ACCORDION ITEM 4 -->
+      <div class="accordion-item shadow mb-3">
+      <h2 class="accordion-header" id="headingFour">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        Você também cuida da hospedagem do site?
+        </button>
+      </h2>
+      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+        Sim, posso cuidar de toda a parte de hospedagem na nuvem, garantindo que seu site fique online com segurança, desempenho e suporte especializado (pode estar inclusas ou serem orçadas à parte).
+        </div>
+      </div>
+      </div>
+      <!-- ACCORDION ITEM 5 -->
+      <div class="accordion-item shadow mb-3">
+      <h2 class="accordion-header" id="headingFive">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+        Como funciona o processo de criação do site?
+        </button>
+      </h2>
+      <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+        O processo envolve briefing, planejamento, design, desenvolvimento, testes e publicação. Em cada etapa, mantenho contato com o cliente para garantir que o resultado final atenda às expectativas.
+        </div>
+      </div>
+      </div>
+      <!-- ACCORDION ITEM 6 -->
+      <div class="accordion-item shadow mb-3">
+      <h2 class="accordion-header" id="headingSix">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+        Posso solicitar alterações no site depois de pronto?
+        </button>
+      </h2>
+      <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+        Sim, após a entrega você pode solicitar ajustes e melhorias. Dependendo do escopo, as alterações podem estar inclusas ou serem orçadas à parte.
+        </div>
+      </div>
+      </div>
+      <!-- ACCORDION ITEM 7 -->
+      <div class="accordion-item shadow mb-3">
+      <h2 class="accordion-header" id="headingSeven">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+        Você também faz o marketing digital do meu site?
+        </button>
+      </h2>
+      <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+        Sim, ofereço serviços de marketing digital como criação de campanhas, SEO, produção de conteúdo e estratégias para aumentar a visibilidade do seu site.
+        </div>
+      </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////
+        INÍCIO SEÇÃO 7 - PORTFÓLIO  
+//////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+<section id="portfolio" class="portfolio">
+  <div class="container">
+  <div class="row text-center mt-5">
+  <h1 class="display-3 fw-bold text-capitalize">Últimos trabalhos</h1>
+  <div class="heading-line"></div>
+  <p class="lead">
+  Ultimos Trabalhos realizados, projetos e portfólio de desenvolvimento web.
+  </p>
+  </div>
+  <!-- BOTÕES DE FILTRO  -->
+  <div class="row mt-5 mb-4 g-3 text-center">
+  <div class="col-md-12">
+  <button class="btn btn-outline-primary filter-btn active" type="button" data-filter="all">Todos</button>
+  <button class="btn btn-outline-primary filter-btn" type="button" data-filter="web">Websites</button>
+  <button class="btn btn-outline-primary filter-btn" type="button" data-filter="mobile">Aplicativo Mobile</button>
+  </div>
+  </div>
+
+  <!-- INÍCIO DO CONTEÚDO DOS ITENS DO PORTFÓLIO  -->
+  <div class="row" id="portfolio-items">
+  <div class="col-lg-4 col-md-6 portfolio-item" data-category="mobile">
+    <a href="https://github.com/DevMarcelino/NutriHelper" target="_blank" class="portfolio-link" style="text-decoration:none;">
+    <div class="portfolio-box shadow">
+      <img src="images/portfolio/nutrihelper.png" alt="imagem do portfólio 1" title="foto do portfólio 1" class="img-fluid">
+      <div class="portfolio-info">
+      <div class="caption">
+        <h4>NutriHelper</h4>
+        <p>Aplicativo Mobile</p>
+      </div>
+      </div>
+    </div>
+    </a>
+  </div>
+  <div class="col-lg-4 col-md-6 portfolio-item" data-category="web">
+    <a href="https://github.com/DevMarcelino/AthenaConnect" target="_blank" class="portfolio-link" style="text-decoration:none;">
+    <div class="portfolio-box shadow">
+      <img src="images/portfolio/AthenaConnect.png" alt="imagem do portfólio 2" title="foto do portfólio 2" class="img-fluid">
+      <div class="portfolio-info">
+      <div class="caption">
+        <h4>AthenaConnect</h4>
+        <p>Websites</p>
+      </div>
+      </div>
+    </div>
+    </a>
+  </div>
+  <div class="col-lg-4 col-md-6 portfolio-item" data-category="web">
+    <a href="https://github.com/DevMarcelino/" target="_blank" class="portfolio-link" style="text-decoration:none;">
+    <div class="portfolio-box shadow">
+      <img src="images/portfolio/github.jpg" alt="imagem do portfólio 3" title="foto do portfólio 3" class="img-fluid">
+      <div class="portfolio-info">
+      <div class="caption">
+        <h4>PortFolio</h4>
+        <p>Websites</p>
+      </div>
+      </div>
+    </div>
+    </a>
+  </div>
+ </section>
+
+<script>
+  // Filtro do portfólio
+  document.addEventListener('DOMContentLoaded', function () {
+  const filterButtons = document.querySelectorAll('.filter-btn');
+  const items = document.querySelectorAll('.portfolio-item');
+
+  filterButtons.forEach(btn => {
+    btn.addEventListener('click', function () {
+    // Remove active de todos
+    filterButtons.forEach(b => b.classList.remove('active'));
+    this.classList.add('active');
+
+    const filter = this.getAttribute('data-filter');
+    items.forEach(item => {
+      if (filter === 'all' || item.getAttribute('data-category') === filter) {
+      item.style.display = '';
+      } else {
+      item.style.display = 'none';
+      }
+    });
+    });
+  });
+  });
+</script>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////
+              INÍCIO SEÇÃO 8 - COMEÇAR  
+/////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<section id="contact" class="get-started">
+  <div class="container">
+    <div class="row text-center">
+      <h1 class="display-3 fw-bold text-capitalize">Comece agora</h1>
+      <div class="heading-line"></div>
+      <p class="lh-lg">
+        Entre em contato para iniciar seu projeto. Estou aqui para ajudar a transformar suas ideias em realidade digital. Seja para um site, aplicativo ou estratégia de marketing, vamos juntos criar algo incrível!
+      </p>
+    </div>
+
+    <!-- INÍCIO DO CONTEÚDO CTA  -->
+    <div class="row text-white">
+      <div class="col-12 col-lg-6 gradient shadow p-3">
+        <div class="cta-info w-100">
+          <h4 class="display-4 fw-bold">100% de Satisfação Garantida</h4>
+          <p class="lh-lg">
+            Estou comprometido em garantir que seu projeto atenda às suas expectativas e necessidades. Estou comprometido em entregar resultados de alta qualidade, com atenção aos detalhes e foco na experiência do usuário.
+          </p>
+          <h3 class="display-3--brief">Qual será o próximo passo?</h3>
+          <ul class="cta-info__list">
+            <li>Prepararemos a proposta.</li>
+            <li>Vamos discutir juntos.</li>
+            <li>Vamos iniciar a conversa.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6 bg-white shadow p-3">
+        <div class="form w-100 pb-2">
+          <h4 class="display-3--title mb-5">inicie seu projeto</h4>
+          <form id="contactForm" class="row"></form>
+            <div class="row">
+              <div class="col-lg-6 col-md-6 mb-3">
+                <input type="text" placeholder="Nome" id="inputFirstName" class="shadow form-control form-control-lg" required>
+              </div>
+              <div class="col-lg-6 col-md-6 mb-3">
+                <input type="text" placeholder="Sobrenome" id="inputLastName" class="shadow form-control form-control-lg" required>
+              </div>
+            </div>
+            <div class="col-lg-12 mb-3">
+              <input type="email" placeholder="E-mail" id="inputEmail" class="shadow form-control form-control-lg" required>
+            </div>
+            <div class="col-lg-12 mb-3">
+              <textarea name="message" placeholder="Mensagem" id="message" rows="8" class="shadow form-control form-control-lg" required></textarea>
+            </div>
+            <div class="text-center d-grid mt-1">
+              <button type="submit" class="btn btn-primary rounded-pill pt-3 pb-3" id="sendBtn">
+                Enviar
+                <i class="fas fa-paper-plane"></i>
+              </button>
+            </div>
+          </form>
+          <div id="formStatus" class="mt-3"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  var nome = document.getElementById('inputFirstName').value;
+  var sobrenome = document.getElementById('inputLastName').value;
+  var email = document.getElementById('inputEmail').value;
+  var mensagem = document.getElementById('message').value;
+  var subject = encodeURIComponent('Novo contato pelo site');
+  var body = encodeURIComponent(
+    'Nome: ' + nome + '\n' +
+    'Sobrenome: ' + sobrenome + '\n' +
+    'E-mail: ' + email + '\n' +
+    'Mensagem:\n' + mensagem
+  );
+  var mailtoLink = 'mailto:marcelinojonathas@gmail.com?subject=' + subject + '&body=' + body;
+  window.location.href = mailtoLink;
+  document.getElementById('formStatus').innerHTML = '<span style="color:green;">Abrindo seu programa de e-mail...</span>';
+});
+</script>
+
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////
+                           INÍCIO SEÇÃO 9 - RODAPÉ  
+///////////////////////////////////////////////////////////////////////////////////////////////-->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <!-- CONTEÚDO PARA O NÚMERO DE TELEFONE  -->
+      <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+        <div class="contact-box__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+            <path d="M15 7a2 2 0 0 1 2 2" />
+            <path d="M15 3a6 6 0 0 1 6 6" />
+          </svg>
+        </div>
+        <div class="contact-box__info">
+          <a href="#" class="contact-box__info--title">+39 351 314 0531</a>
+          <p class="contact-box__info--subtitle">Seg-Sex 9h-18h</p>
+        </div>
+      </div>  
+      <!-- CONTEÚDO PARA E-MAIL  -->
+      <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+        <div class="contact-box__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-opened" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <polyline points="3 9 12 15 21 9 12 3 3 9" />
+            <path d="M21 9v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />
+            <line x1="3" y1="19" x2="9" y2="13" />
+            <line x1="15" y1="13" x2="21" y2="19" />
+          </svg>
+        </div>
+        <div class="contact-box__info">
+          <a href="#" class="contact-box__info--title">marcelinojonathas@gmail.com</a>
+          <p class="contact-box__info--subtitle">Suporte online</p>
+        </div>
+      </div>
+      <!-- CONTEÚDO PARA LOCALIZAÇÃO  -->
+      <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+        <div class="contact-box__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <line x1="18" y1="6" x2="18" y2="6.01" />
+            <path d="M18 13l-3.5 -5a4 4 0 1 1 7 0l-3.5 5" />
+            <polyline points="10.5 4.75 9 4 3 7 3 20 9 17 15 20 21 17 21 15" />
+            <line x1="9" y1="4" x2="9" y2="17" />
+            <line x1="15" y1="15" x2="15" y2="20" />
+          </svg>
+        </div>
+        <div class="contact-box__info">
+          <a href="#" class="contact-box__info--title">Candelo, IT</a>
+          <p class="contact-box__info--subtitle">IT 13878, Itália</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- INÍCIO DO CONTEÚDO DE MÍDIAS SOCIAIS  -->
+  <div class="footer-sm" style="background-color: #212121;">
+    <div class="container">
+      <div class="row py-4 text-center text-white">
+        <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
+          Conheça mais sobre mim e meu trabalho nas redes sociais. Estou sempre aberto a novas conexões e oportunidades de colaboração.
+          
+        </div>
+        <div class="col-lg-7 col-md-6">
+          <a href="https://github.com/DevMarcelino"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/jonathas-marcelino-oliveira-3262b0313/"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/jonathas.marcelino/"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- INÍCIO DAS INFORMAÇÕES DE COPYRIGHT  -->
+  <div class="footer-bottom pt-5 pb-5">
+    <div class="container">
+      <div class="row text-center text-white">
+        <div class="col-12">
+          <div class="footer-bottom__copyright">
+            &COPY; Copyright 2025 <a href="#">DevMarcelino</a> | Criado por <a href="http://linkedin.com/in/jonathas-marcelino-oliveira-3262b0313/" target="_blank">Jonathas Marcelino</a><br><br>
+            Distribuído por <a href="http://github.com/DevMarcelino" target="_blank">DevMarcelino</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- BOTÃO VOLTAR AO TOPO  -->
+<a href="#" class="shadow btn-primary rounded-circle back-to-top">
+  <i class="fas fa-chevron-up"></i>
+</a>
+    
+    </script>
+     <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
